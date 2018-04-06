@@ -168,13 +168,13 @@
       },
       {
         "uri": "widgets/Splash/Widget",
-        "visible": false,
         "position": {
           "relativeTo": "browser"
         },
         "version": "2.7",
         "id": "widgets_Splash_Widget_14",
-        "name": "Splash"
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_14.json"
       },
       {
         "uri": "widgets/ZoomSlider/Widget",
@@ -196,8 +196,7 @@
         },
         "id": "widgets_ExtentNavigate_Widget_16",
         "name": "ExtentNavigate",
-        "version": "2.7",
-        "config": null
+        "version": "2.7"
       },
       {
         "uri": "widgets/FullScreen/Widget",
@@ -208,8 +207,7 @@
         },
         "version": "2.7",
         "id": "widgets_FullScreen_Widget_17",
-        "name": "FullScreen",
-        "config": null
+        "name": "FullScreen"
       }
     ],
     "panel": {
@@ -228,21 +226,13 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "1254ac139ecf423fbb04020bc57025a5",
-    "mapOptions": {
-      "extent": {
-        "type": "extent",
-        "xmin": -1247334.8943381682,
-        "ymin": 4096949.524315532,
-        "xmax": 523646.88469136413,
-        "ymax": 5603749.456812237,
-        "spatialReference": {
-          "wkid": 102100
-        }
-      }
-    },
+    "itemId": "4d60411b6a50422ba3de0e1e8294f091",
+    "mapOptions": {},
     "id": "map",
-    "portalUrl": "http://abtemas.maps.arcgis.com/"
+    "portalUrl": "http://www.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
   },
   "widgetPool": {
     "panel": {
@@ -261,16 +251,25 @@
         "version": "2.7",
         "id": "widgets_Legend_Widget_18",
         "name": "Legend",
-        "index": 0
+        "index": 2
       },
       {
         "uri": "widgets/LayerList/Widget",
         "version": "2.7",
         "id": "widgets_LayerList_Widget_19",
         "name": "LayerList",
-        "index": 1
+        "index": 3
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.7",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_20.json",
+        "index": 5,
+        "id": "widgets_BasemapGallery_Widget_20"
       }
-    ]
+    ],
+    "groups": []
   },
   "mobileLayout": {
     "widgetOnScreen": {
